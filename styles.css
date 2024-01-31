@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.firstSection {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.videoFirstSection {
+  position: relative;
+  height: 100vh;
+}
+
+.videoFirstSection video {
+  position: absolut;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.textFirstSection {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 4px;
+  margin-left: 40px;
+}
+
+.textFirstSection .textFirstSectionContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+  gap: 20px;
+  padding: 30px;
+  line-height: 1.5;
+  align-items: flex-start;
+  text-shadow: 0 0.2rem 0.4rem rgb(0 0 0 / 39%);
+  text-align: left;
+}
+
+.textFirstSection div h1 {
+  font-size: 3.3rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.textFirstSection div h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.textFirstSection a {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 15px 8px;
+  background: white;
+  color: black;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.textFirstSection a:hover {
+  background: black;
+  color: white;
+}
+
+.logos {
+  display: flex;
+  gap: 20px;
+}
+
+.logos img {
+  width: 150px;
+}
