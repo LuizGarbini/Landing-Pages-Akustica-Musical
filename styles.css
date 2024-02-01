@@ -192,7 +192,7 @@
 }
 
 .section.third.fourthColumns .containerCardProducts {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .cardProducts {
@@ -200,6 +200,7 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  margin: 20px;
 }
 
 .cardProducts h4 {
@@ -209,7 +210,7 @@
 
 .section.third .containerCardProducts img {
   width: 100%;
-  padding: 20px;
+  border-radius: 4px;
 }
 
 svg#whatsapp {
