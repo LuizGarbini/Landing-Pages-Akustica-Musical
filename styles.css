@@ -237,6 +237,7 @@ svg#whatsapp {
   gap: 20px;
 }
 
+.secondSectionText img,
 .fourthSectionText img {
   width: 50px !important;
 }
