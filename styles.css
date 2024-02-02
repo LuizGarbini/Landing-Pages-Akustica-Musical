@@ -5,6 +5,23 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ba181b;
+  border-radius: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .firstSection {
   width: 100%;
   height: 100%;
@@ -168,8 +185,8 @@
 .section.second p,
 .section.fourth p {
   color: black;
-  font-size: 1.25rem;
-  font-weight: 400;
+  font-size: 1.4rem;
+  font-weight: 600;
   line-height: 1.5;
 }
 
@@ -223,7 +240,7 @@ svg#whatsapp {
   display: flex;
   gap: 30px;
   padding: 40px 80px;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
 }
 
@@ -272,11 +289,13 @@ svg#whatsapp {
   gap: 15px;
 }
 
-#subtitleIcon p {
-  font-weight: 700;
+.section.second.icons {
+  grid-template-columns: 1fr;
 }
 
-.section.second.icons {
+.section.second.icons .gridIcons {
+  width: 100%;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
@@ -287,7 +306,7 @@ svg#whatsapp {
   padding-bottom: 0;
 }
 
-.section.second.icons > div {
+.section.second.icons .gridIcons > div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -296,4 +315,5 @@ svg#whatsapp {
 
 .section.second.icons p {
   font-weight: 600;
+  font-size: 1.4rem;
 }
