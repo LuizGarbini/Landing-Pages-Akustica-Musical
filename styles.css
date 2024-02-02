@@ -18,7 +18,7 @@
 }
 
 .videoFirstSection video {
-  position: absolut;
+  position: absolute;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -26,7 +26,6 @@
 
 .textFirstSection {
   position: absolute;
-  margin: auto;
   top: 0;
   width: 100%;
   height: 100%;
@@ -56,6 +55,7 @@
 }
 
 .textFirstSection div h1 {
+  margin-left: -2px;
   font-size: 3.8rem;
   font-weight: 700;
   letter-spacing: 0.05rem;
@@ -77,13 +77,12 @@
   display: flex;
   font-size: 0.9375rem;
   font-weight: bold;
-  padding: 12px 8px;
+  padding: 14px 18px;
   background: #ba181b;
   color: white;
   border-radius: 4px;
   text-decoration: none;
   letter-spacing: 0.05rem;
-  border: 2px solid #ba181b;
   align-items: center;
   gap: 5px;
   flex-direction: row-reverse;
@@ -117,6 +116,13 @@
   overflow: hidden;
   border-top: 4px solid #ba181b;
   border-bottom: 4px solid #ba181b;
+  flex-direction: column;
+}
+
+.section.third p {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: white;
 }
 
 .section.second,
@@ -147,8 +153,7 @@
 .secondSectionText,
 .fourthSectionText {
   display: flex;
-  width: 75%;
-  padding: 20px;
+  width: 80%;
   gap: 20px;
   flex-direction: column;
   align-items: flex-start;
@@ -161,13 +166,11 @@
 }
 
 .section.second p,
-.section.third p,
 .section.fourth p {
   color: black;
-  font-size: 1.3rem;
-  font-weight: 500;
+  font-size: 1.25rem;
+  font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.05rem;
 }
 
 .section.second img,
@@ -220,7 +223,7 @@ svg#whatsapp {
   display: flex;
   gap: 30px;
   padding: 40px 80px;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -228,7 +231,7 @@ svg#whatsapp {
   text-decoration: none;
   background: #00000091;
   color: white;
-  padding: 12px 8px;
+  padding: 14px 18px;
   border-radius: 4px;
 }
 
@@ -239,7 +242,7 @@ svg#whatsapp {
 
 .secondSectionText img,
 .fourthSectionText img {
-  width: 50px !important;
+  width: 40px !important;
 }
 
 .cardsAtendimentoLojasPrivia {
@@ -256,4 +259,41 @@ svg#whatsapp {
 
 #cardsAtendimentosButton img {
   width: 100px;
+}
+
+.secondSectionText span {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+#subtitleIcon {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+#subtitleIcon p {
+  font-weight: 700;
+}
+
+.section.second.icons {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.section.second.icons img {
+  width: 50px;
+}
+.section.second.icons {
+  padding-bottom: 0;
+}
+
+.section.second.icons > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.section.second.icons p {
+  font-weight: 600;
 }
