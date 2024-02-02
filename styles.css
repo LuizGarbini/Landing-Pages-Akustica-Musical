@@ -236,3 +236,7 @@ svg#whatsapp {
   display: flex;
   gap: 20px;
 }
+
+.fourthSectionText img {
+  width: 50px !important;
+}
