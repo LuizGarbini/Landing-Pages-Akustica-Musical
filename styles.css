@@ -137,9 +137,13 @@ html {
 }
 
 .section.third p {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.5rem;
   color: white;
+}
+
+#subtitleIcon p {
+  font-weight: 600;
 }
 
 .section.second,
@@ -186,7 +190,7 @@ html {
 .section.fourth p {
   color: black;
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.5;
 }
 
