@@ -90,7 +90,8 @@ html {
 }
 .textFirstSection a,
 .section.second a,
-.section.third a {
+.section.third a,
+.section.fourth a {
   display: flex;
   font-size: 0.9375rem;
   font-weight: bold;
@@ -209,6 +210,16 @@ html {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.section.fourth.fourthColumns {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.section.fourth.fourthColumns .containerCardProducts {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .cardProducts {
   display: flex;
   flex-direction: column;
@@ -227,7 +238,8 @@ html {
   border-radius: 4px;
 }
 
-svg#whatsapp {
+svg#whatsapp,
+svg#locationIcon {
   fill: white;
   width: 20px;
   height: 20px;
@@ -320,4 +332,27 @@ svg#whatsapp {
 .section.second.icons p {
   font-weight: 600;
   font-size: 1.4rem;
+}
+
+.containerMaps {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.containerMaps .cardProducts {
+  background: #555454;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.cardProducts span {
+  color: white;
+  font-size: 1.125rem;
+}
+
+.buttonMaps {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 }
