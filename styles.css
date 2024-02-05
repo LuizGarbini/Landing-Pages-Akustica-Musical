@@ -359,7 +359,7 @@ svg#locationIcon {
 
 .containerWhatsapp {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 30px;
   align-items: center;
 }
@@ -383,7 +383,7 @@ svg#locationIcon {
 }
 
 #textWhatsapp svg {
-  fill: #25D366;
+  fill: #25d366;
 }
 
 #buttonsWhatsapp {
@@ -404,10 +404,21 @@ svg#locationIcon {
 }
 
 #buttonsWhatsapp img {
-  width: 100px;
+  width: 125px;
+}
+
+#buttonsWhatsapp div {
+  display: flex;
+  flex-direction: column;
+}
+
+#buttonsWhatsapp span strong {
+  color: white;
+  font-weight: 700;
+  font-size: 1.25rem;
 }
 
 #buttonsWhatsapp span {
-  color: white;
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 1rem;
 }
