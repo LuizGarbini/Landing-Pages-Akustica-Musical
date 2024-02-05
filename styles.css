@@ -497,3 +497,15 @@ svg#locationIcon {
   gap: 5px;
   flex-direction: row-reverse;
 }
+
+.section.fourth.gridItemsSection {
+  grid-template-columns: 1fr;
+}
+
+.gridItems {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  justify-items: center;
+  align-items: center;
+}
