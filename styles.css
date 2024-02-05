@@ -100,7 +100,6 @@ html {
   color: white;
   border-radius: 4px;
   text-decoration: none;
-  letter-spacing: 0.05rem;
   align-items: center;
   gap: 5px;
   flex-direction: row-reverse;
@@ -217,7 +216,7 @@ html {
 }
 
 .section.fourth.fourthColumns .containerCardProducts {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .cardProducts {
@@ -421,4 +420,57 @@ svg#locationIcon {
 #buttonsWhatsapp span {
   font-weight: 500;
   font-size: 1rem;
+}
+
+.section.footerImage {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+}
+
+.section.footerImage img {
+  position: absolute;
+  width: 100%;
+  background-size: cover;
+  height: 100%;
+  filter: brightness(0.8);
+}
+
+.textRodape {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 80px;
+  gap: 20px;
+}
+
+.textRodape h2 {
+  color: white;
+  z-index: 1;
+}
+
+.textRodape p {
+  color: white;
+  z-index: 1;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.textRodape a {
+  display: flex;
+  z-index: 1;
+  text-decoration: none;
+  color: white;
+  gap: 5px;
+  background: #ba181b;
+  padding: 14px 18px;
+  font-size: 0.9375rem;
+  font-weight: bold;
+  border-radius: 4px;
+  letter-spacing: 0.05rem;
 }
