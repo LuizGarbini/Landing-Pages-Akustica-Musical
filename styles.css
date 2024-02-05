@@ -32,6 +32,7 @@ html {
 .videoFirstSection {
   position: relative;
   height: 100vh;
+  filter: brightness(0.8);
 }
 
 .videoFirstSection video {
@@ -39,6 +40,14 @@ html {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.containerFirstSection {
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .textFirstSection {
@@ -52,18 +61,37 @@ html {
   justify-content: center;
   align-items: flex-start;
   border-radius: 4px;
-  margin: 0 80px;
+}
+
+.firstSectionButtonAndLogo {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+}
+
+.firstSectionButtonAndLogo div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 75%;
+  align-items: flex-start;
+}
+
+.firstSectionButtonAndLogo img {
+  width: 35%;
+  height: 100%;
 }
 
 .textFirstSection .textFirstSectionContainer {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 60%;
   flex-wrap: wrap;
   justify-content: center;
   color: white;
   gap: 20px;
-  padding: 30px;
+  padding: 60px;
   line-height: 1.5;
   align-items: flex-start;
   text-align: left;
@@ -73,7 +101,7 @@ html {
 
 .textFirstSection div h1 {
   margin-left: -2px;
-  font-size: 3.8rem;
+  font-size: 2.625rem;
   font-weight: 700;
   letter-spacing: 0.05rem;
 }
@@ -108,7 +136,7 @@ html {
 .logos {
   border-radius: 4px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 
@@ -116,8 +144,33 @@ html {
   width: 150px;
 }
 
+.containerSections {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 80px 0;
+  background: #3e3e3e;
+  overflow: hidden;
+  border-top: 4px solid #ba181b;
+  border-bottom: 4px solid #ba181b;
+}
+
+.containerSections.white {
+  background: white;
+  border-top: none;
+  border-bottom: none;
+}
+
+.containerSections.fullScreen {
+  height: 100vh;
+}
+
 .section.second {
   align-items: center;
+}
+
+.section.second.fullHeight {
+  height: 100vh;
 }
 
 .section.third {
@@ -125,19 +178,17 @@ html {
   width: 100%;
   height: 100%;
   gap: 30px;
-  padding: 80px;
-  background: #3e3e3e;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  border-top: 4px solid #ba181b;
-  border-bottom: 4px solid #ba181b;
   flex-direction: column;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .section.third p {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1.5rem;
   color: white;
 }
@@ -148,34 +199,37 @@ html {
 
 .section.second,
 .section.fourth {
+  max-width: 1280px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
   height: 100%;
   gap: 30px;
-  padding: 80px;
   background: white;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   justify-items: center;
   overflow: hidden;
+  padding: 0 20px;
 }
 
-.section.second {
-  padding: 80px;
+.noPaddingTop {
+  padding-top: 0;
 }
 
 .section.third h2 {
   text-align: center;
   color: white;
+  width: 90%;
 }
 
 .secondSectionText,
 .fourthSectionText {
   display: flex;
-  width: 80%;
-  gap: 20px;
+  width: 85%;
+  gap: 30px;
   flex-direction: column;
   align-items: flex-start;
 }
@@ -184,6 +238,11 @@ html {
 .section h3 {
   color: black;
   font-size: 2.5rem;
+  width: 90%;
+}
+
+.textRodape h2 {
+  text-align: center;
 }
 
 .section.second p,
@@ -197,6 +256,7 @@ html {
 .section.second img,
 .section.fourth img {
   width: 100%;
+  height: auto;
   border-radius: 4px;
 }
 
@@ -254,9 +314,17 @@ svg#locationIcon {
   width: 100%;
   display: flex;
   gap: 30px;
-  padding: 40px 80px;
+  padding: 40px 0;
   justify-content: center;
   align-items: center;
+}
+
+.containerHeaderPrivia {
+  width: 100%;
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .itemMenu {
@@ -270,6 +338,14 @@ svg#locationIcon {
 .containerButtonsMenu {
   display: flex;
   gap: 20px;
+  justify-content: flex-end;
+}
+
+.firstSectionButtonAndLogo div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
 }
 
 .secondSectionText img,
@@ -349,7 +425,7 @@ svg#locationIcon {
 
 .containerMaps .cardProducts {
   background: #555454;
-  padding: 20px;
+  padding: 60px;
   border-radius: 4px;
 }
 
@@ -508,4 +584,23 @@ svg#locationIcon {
   gap: 30px;
   justify-items: center;
   align-items: center;
+  margin: 40px 0;
+}
+
+.section.fourth.oneColumn {
+  grid-template-columns: 1fr;
+}
+
+@media (max-width: 1080px) {
+  .textFirstSection {
+    margin: 0;
+  }
+
+  .logos {
+    display: flex;
+  }
+
+  .textFirstSection div h1 {
+    font-size: 2rem;
+  }
 }
