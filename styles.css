@@ -356,3 +356,58 @@ svg#locationIcon {
   gap: 20px;
   flex-wrap: wrap;
 }
+
+.containerWhatsapp {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+}
+
+#textWhatsapp {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#textWhatsapp p {
+  font-size: 1.125rem;
+}
+
+#textWhatsapp a {
+  background: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+#textWhatsapp svg {
+  fill: #25D366;
+}
+
+#buttonsWhatsapp {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+#buttonsWhatsapp a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background: #555454;
+  padding: 14px 18px;
+  border-radius: 4px;
+  flex-direction: row;
+}
+
+#buttonsWhatsapp img {
+  width: 100px;
+}
+
+#buttonsWhatsapp span {
+  color: white;
+  font-weight: 700;
+}
