@@ -784,6 +784,7 @@ svg#locationIcon {
   .containerCardProducts {
     display: flex;
     flex-direction: column;
+    gap: 20px;
   }
 
   .containerSections.fullScreen {
@@ -839,6 +840,11 @@ svg#locationIcon {
   .containerMaps {
     display: flex;
     flex-direction: column;
+    gap: 20px;
+  }
+
+  .cardProducts {
+    margin: 0;
   }
 
   .containerMaps .cardProducts {
