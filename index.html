@@ -9,7 +9,6 @@
     <title>Landing Page Akústica Privia</title>
 
     <link rel="stylesheet" href="styles.css" />
-    <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
 
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
@@ -261,6 +260,67 @@ C276.546,215.678,222.799,268.994,156.734,268.994z"
       </section>
     </section>
     <section class="containerSections white noPaddingTop">
+      <section id="caracteristicas" class="section second icons">
+        <h2 data-aos="fade-down" data-aos-delay="50">Conheça todos os detalhes</h2>
+        <div data-aos="fade-down" data-aos-delay="50" class="videoSlider">
+          <div class="trevl-video-player">
+            <div class="trevl-video-thumbnail">
+              <!-- Botão de reprodução do vídeo -->
+              <button class="trevl-play-button" style="display: none">
+                Reproduzir Vídeo
+              </button>
+            </div>
+            <div class="video-player-container">
+              <!-- Container para o vídeo ou iframe do YouTube -->
+              <iframe
+                id="video-iframe"
+                width="1000"
+                height="563"
+                src="https://www.youtube.com/embed/D6VzSc1TEPQ?si=JL61_rtBk8F0C6jZ"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div
+              id="trevl-video-thumbnails-image"
+              class="trevl-video-thumbnails"
+            >
+              <!-- Miniaturas dos vídeos -->
+              <div class="trevlVideoContainerCard">
+                <span class="trevlDescriptionVideoThumbnail"
+                  >Introdução ao PX-S7000</span
+                >
+                <img
+                  src="./imagens-produtos/thumbnailsVideos/thumb-video-1.jpg"
+                  alt="Thumbnail do Vídeo 1"
+                  class="trevl-thumbnail"
+                  data-video="D6VzSc1TEPQ"
+                />
+              </div>
+              <div class="trevlVideoContainerCard">
+                <span class="trevlDescriptionVideoThumbnail">Overview</span>
+                <img
+                  src="./imagens-produtos/thumbnailsVideos/thumb-video-2.jpg"
+                  alt="Thumbnail do Vídeo 2"
+                  class="trevl-thumbnail"
+                  data-video="SO2pNZg4-N4"
+                />
+              </div>
+              <div class="trevlVideoContainerCard">
+                <span class="trevlDescriptionVideoThumbnail">Descubra</span>
+                <img
+                  src="./imagens-produtos/thumbnailsVideos/thumb-video-3.jpg"
+                  alt="Thumbnail do Vídeo 3"
+                  class="trevl-thumbnail"
+                  data-video="Wqh9XwKf_bI"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="containerSections white noPaddingTop">
       <section class="section fourth gridItemsSection">
         <div class="gridItems">
           <img
@@ -379,7 +439,7 @@ C276.546,215.678,222.799,268.994,156.734,268.994z"
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55721.413112733084!2d-51.328026145909654!3d-29.206244960525627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951ea32dd2a5b81f%3A0xe6e0ed6d4d02a4f4!2sAkustica%20Musical!5e0!3m2!1spt-BR!2sbr!4v1707135529854!5m2!1spt-BR!2sbr"
               width="100%"
-              height="400"
+              height="300"
               style="border: 0"
               allowfullscreen=""
               loading="lazy"
@@ -469,7 +529,7 @@ C276.546,215.678,222.799,268.994,156.734,268.994z"
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55710.346408310485!2d-51.417810641796855!3d-29.226594300000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951ea09b9da662ef%3A0xc055d24da3cea86d!2sAkustica%20Musical!5e0!3m2!1spt-BR!2sbr!4v1707135503908!5m2!1spt-BR!2sbr"
               width="100%"
-              height="400"
+              height="300"
               style="border: 0"
               allowfullscreen=""
               loading="lazy"
@@ -811,5 +871,6 @@ C276.546,215.678,222.799,268.994,156.734,268.994z"
         </a>
       </div>
     </section>
+    <script src="./script.js"></script>
   </body>
 </html>

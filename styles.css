@@ -591,6 +591,59 @@ svg#locationIcon {
   grid-template-columns: 1fr;
 }
 
+#caracteristicas h2 {
+  text-align: center;
+  width: 100%;
+}
+
+.trevl-video-player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trevl-video-thumbnail {
+  position: relative;
+}
+
+.trevl-play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.trevl-video-thumbnails {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.trevl-thumbnail {
+  width: 100px;
+  height: 56px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+#trevl-video-thumbnails-image img {
+  width: 250px;
+}
+
+.trevlVideoContainerCard {
+  position: relative;
+}
+
+.trevlDescriptionVideoThumbnail {
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+  background: #171717cc;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+}
+
 @media (max-width: 1080px) {
   .textFirstSection {
     margin: 0;
