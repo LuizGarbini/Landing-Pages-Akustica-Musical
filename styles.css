@@ -644,6 +644,58 @@ svg#locationIcon {
   font-weight: bold;
 }
 
+.section.third.Footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.containerSections.Footer {
+  border-top: none;
+  border-bottom: none;
+}
+
+.copirightFooter {
+  width: 50%;
+  color: white;
+  font-size: 0.9rem;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.rodapeLogo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+.rodapeLogo img {
+  width: 250px;
+}
+
+#logosRodape {
+  display: flex;
+  gap: 10px;
+}
+
+#logosRodape a {
+  display: flex;
+  background: white;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+}
+
+#logosRodape a svg {
+  width: 24px;
+  height: 24px;
+}
+
 @media (max-width: 1080px) {
   .textFirstSection {
     margin: 0;
