@@ -703,9 +703,70 @@ svg#locationIcon {
 
   .logos {
     display: flex;
+    flex-wrap: wrap;
   }
 
   .textFirstSection div h1 {
     font-size: 2rem;
+  }
+
+  .textFirstSection .textFirstSectionContainer {
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    align-items: flex-start;
+    text-align: left;
+    background: #00000091;
+    border-radius: 4px;
+  }
+
+  .textFirstSection div h3 {
+    font-size: 1.4rem;
+  }
+
+  .firstSectionButtonAndLogo {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .firstSectionButtonAndLogo div {
+    width: 100%;
+    gap: 20px;
+  }
+
+  .containerButtonsMenu {
+    justify-content: center;
+  }
+
+  .firstSectionButtonAndLogo img {
+    width: 50%;
+  }
+
+  .section.second {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .section h2 {
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  .section.second p {
+    font-size: 1.3rem;
+  }
+
+  .secondSectionText {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
