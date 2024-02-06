@@ -655,8 +655,8 @@ svg#locationIcon {
   border-bottom: none;
 }
 
-.copirightFooter {
-  width: 50%;
+.copyrightFooter {
+  width: 55%;
   color: white;
   font-size: 0.9rem;
   display: flex;
@@ -673,6 +673,12 @@ svg#locationIcon {
 
 .rodapeLogo img {
   width: 250px;
+}
+
+.enderecosFooter {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
 }
 
 #logosRodape {
@@ -740,6 +746,10 @@ svg#locationIcon {
     gap: 20px;
   }
 
+  .video-player-container {
+    width: 100%;
+  }
+
   .containerButtonsMenu {
     justify-content: center;
   }
@@ -753,7 +763,8 @@ svg#locationIcon {
     flex-direction: column-reverse;
   }
 
-  .section h2 {
+  .section h2,
+  .section.third h2 {
     width: 100%;
     font-size: 2rem;
   }
@@ -768,5 +779,116 @@ svg#locationIcon {
     gap: 30px;
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .containerCardProducts {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .containerSections.fullScreen {
+    height: 100%;
+  }
+
+  .section.second.icons .gridIcons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #caracteristicas {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .trevl-video-thumbnails {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .video-player-container iframe {
+    width: 100%;
+    height: 350px;
+  }
+
+  .videoSlider {
+    width: 100%;
+  }
+
+  #trevl-video-thumbnails-image img {
+    width: 330px;
+  }
+
+  #lojas p {
+    text-align: center;
+  }
+
+  .gridItems {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+
+  .gridItems.reverse {
+    flex-direction: column-reverse;
+  }
+
+  .fourthSectionText {
+    width: 100%;
+  }
+
+  .containerMaps {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .containerMaps .cardProducts {
+    padding: 20px;
+  }
+
+  #buttonsWhatsapp a {
+    flex-direction: column;
+  }
+
+  #buttonsWhatsapp div {
+    align-items: center;
+  }
+
+  .buttonMaps {
+    margin-top: -20px;
+  }
+
+  .textRodape {
+    padding: 20px;
+  }
+
+  .textRodape p {
+    text-align: center;
+  }
+
+  .section.third.Footer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .enderecosFooter {
+    flex-direction: column;
+  }
+
+  .containerSections.Footer {
+    padding: 40px 0;
+  }
+
+  .rodapeLogo {
+    align-items: center;
+  }
+
+  .copyrightFooter {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .enderecosFooter {
+    text-align: center;
   }
 }
