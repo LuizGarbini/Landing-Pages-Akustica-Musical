@@ -647,6 +647,7 @@ svg#locationIcon {
   color: white;
   padding: 5px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .section.third.Footer {
@@ -1006,5 +1007,9 @@ svg#locationIcon {
   .section.red {
     grid-template-columns: 1fr;
     gap: 50px;
+  }
+
+  .section.red > div {
+    text-align: center;
   }
 }
