@@ -802,21 +802,58 @@ svg#locationIcon {
   }
 
   .trevl-video-thumbnails {
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
   }
 
   .video-player-container iframe {
     width: 100%;
     height: 350px;
+    border-radius: 4px;
   }
 
   .videoSlider {
     width: 100%;
   }
 
+  .textFirstSection div h1,
+  .section h2,
+  .section.third h2 {
+    line-height: 2.2rem;
+  }
+
+  .videoFirstSection {
+    height: 100vh;
+  }
+
+  svg#whatsapp,
+  svg#locationIcon {
+    width: 18px;
+    height: 18px;
+  }
+
+  #buttonsWhatsapp span + span {
+    background: #00e676;
+  }
+
+  .headerPrivia {
+    display: none;
+  }
+
+  .textFirstSection a,
+  .section.second a,
+  .section.third a,
+  .section.fourth a {
+    font-size: 0.8rem;
+  }
+
   #trevl-video-thumbnails-image img {
-    width: 330px;
+    width: 100%;
+  }
+
+  .trevl-thumbnail {
+    margin: 0;
   }
 
   #lojas p {
@@ -896,5 +933,9 @@ svg#locationIcon {
 
   .enderecosFooter {
     text-align: center;
+  }
+
+  .trevlDescriptionVideoThumbnail {
+    font-size: 0.7rem;
   }
 }
