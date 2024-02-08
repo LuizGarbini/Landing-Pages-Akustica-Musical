@@ -1,0 +1,1020 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ba181b;
+  border-radius: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.firstSection {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.videoFirstSection {
+  position: relative;
+  height: 100vh;
+  filter: brightness(0.8);
+}
+
+.videoFirstSection iframe {
+  width: 300%;
+  height: 100%;
+  margin-left: -100%;
+}
+
+.videoFirstSection video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.containerFirstSection {
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.textFirstSection {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 4px;
+}
+
+.firstSectionButtonAndLogo {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+}
+
+.firstSectionButtonAndLogo div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 75%;
+  align-items: flex-start;
+}
+
+.firstSectionButtonAndLogo img {
+  width: 35%;
+  height: 100%;
+}
+
+.textFirstSection .textFirstSectionContainer {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+  gap: 20px;
+  padding: 60px;
+  line-height: 1.5;
+  align-items: flex-start;
+  text-align: left;
+  background: #00000091;
+  border-radius: 4px;
+}
+
+.textFirstSection div h1 {
+  margin-left: -2px;
+  font-size: 2.625rem;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  line-height: 3rem;
+}
+
+.textFirstSection div h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+}
+
+.textFirstSection div h1,
+.textFirstSection div h3 {
+  text-shadow: 0 0.2rem 0.4rem rgb(0 0 0 / 39%);
+}
+.textFirstSection a,
+.section.second a,
+.section.third a,
+.section.fourth a {
+  display: flex;
+  font-size: 0.9375rem;
+  font-weight: bold;
+  padding: 14px 18px;
+  background: #ba181b;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  align-items: center;
+  gap: 5px;
+  flex-direction: row-reverse;
+}
+
+.logos {
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.logos img {
+  width: 150px;
+}
+
+.containerSections {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 80px 0;
+  background: #3e3e3e;
+  overflow: hidden;
+  border-top: 4px solid #ba181b;
+  border-bottom: 4px solid #ba181b;
+}
+
+.containerSections.white {
+  background: white;
+  border-top: none;
+  border-bottom: none;
+}
+
+.containerSections.fullScreen {
+  height: 100vh;
+}
+
+.section.second {
+  align-items: center;
+}
+
+.section.second.fullHeight {
+  height: 100vh;
+}
+
+.section.third {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex-direction: column;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section.third p {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: white;
+}
+
+#subtitleIcon p {
+  font-weight: 600;
+}
+
+.section.second,
+.section.fourth {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 100%;
+  gap: 30px;
+  background: white;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.noPaddingTop {
+  padding-top: 0;
+}
+
+.section.third h2 {
+  text-align: center;
+  color: white;
+  width: 90%;
+}
+
+.secondSectionText,
+.fourthSectionText {
+  display: flex;
+  width: 85%;
+  gap: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.section h2,
+.section h3 {
+  color: black;
+  font-size: 2.5rem;
+  width: 90%;
+  line-height: 3rem;
+}
+
+.textRodape h2 {
+  text-align: center;
+}
+
+.section.second p,
+.section.fourth p {
+  color: black;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.section.second img,
+.section.fourth img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.containerCardProducts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section.third.fourthColumns .containerCardProducts {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.section.fourth.fourthColumns {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.section.fourth.fourthColumns .containerCardProducts {
+  grid-template-columns: 1fr 1fr;
+}
+
+.cardProducts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  gap: 20px;
+}
+
+.cardProducts h4 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.section.third .containerCardProducts img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+svg#whatsapp,
+svg#locationIcon {
+  fill: white;
+  width: 20px;
+  height: 20px;
+}
+
+.headerPrivia {
+  position: relative;
+}
+
+.menuPrivia {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  padding: 40px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerHeaderPrivia {
+  width: 100%;
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.itemMenu {
+  text-decoration: none;
+  background: #00000091;
+  color: white;
+  padding: 14px 18px;
+  border-radius: 4px;
+}
+
+.containerButtonsMenu {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+.firstSectionButtonAndLogo div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.secondSectionText img,
+.fourthSectionText img {
+  width: 40px !important;
+}
+
+.cardsAtendimentoLojasPrivia {
+  display: flex;
+  gap: 20px;
+}
+
+#cardsAtendimentosButton {
+  display: flex;
+  background: #3e3e3e;
+  color: white;
+  border: none;
+}
+
+#cardsAtendimentosButton img {
+  width: 100px;
+}
+
+.secondSectionText span {
+  font-size: 1.4rem;
+  font-weight: 600;
+  width: 100%;
+}
+
+#subtitleIcon {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.section.second.icons {
+  grid-template-columns: 1fr;
+}
+
+.section.second.icons .gridIcons {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.gridIcons {
+  text-align: center;
+}
+
+.section.second.icons img {
+  width: 50px;
+}
+.section.second.icons {
+  padding-bottom: 0;
+}
+
+.section.second.icons .gridIcons > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+}
+
+.section.second.icons p {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.containerMaps {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.containerMaps .cardProducts {
+  background: #555454;
+  padding: 60px;
+  border-radius: 4px;
+}
+
+.cardProducts span {
+  color: white;
+  font-size: 1.125rem;
+}
+
+.buttonMaps {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.containerWhatsapp {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  align-items: center;
+}
+
+#textWhatsapp {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#textWhatsapp p {
+  font-size: 1.125rem;
+}
+
+#textWhatsapp a {
+  background: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+#textWhatsapp svg {
+  fill: #25d366;
+}
+
+#buttonsWhatsapp {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+#buttonsWhatsapp a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background: #555454;
+  padding: 14px 18px;
+  border-radius: 4px;
+  flex-direction: row;
+}
+
+#buttonsWhatsapp img {
+  width: 125px;
+}
+
+#buttonsWhatsapp div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+#buttonsWhatsapp span strong {
+  color: white;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+#buttonsWhatsapp span {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.section.footerImage {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+}
+
+.section.footerImage img {
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  filter: brightness(0.8);
+}
+
+.textRodape {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 80px;
+  gap: 20px;
+}
+
+.textRodape h2 {
+  color: white;
+  z-index: 1;
+}
+
+.textRodape p {
+  color: white;
+  z-index: 1;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.textRodape a {
+  display: flex;
+  z-index: 1;
+  text-decoration: none;
+  color: white;
+  gap: 5px;
+  background: #ba181b;
+  padding: 14px 18px;
+  font-size: 0.9375rem;
+  font-weight: bold;
+  border-radius: 4px;
+  letter-spacing: 0.05rem;
+  flex-direction: row-reverse;
+  margin-top: 10px;
+}
+
+#buttonsWhatsapp span + span {
+  background: #ba181b;
+  display: flex;
+  justify-content: flex-start;
+  padding: 14px 18px;
+  border-radius: 4px;
+  font-weight: 700;
+  gap: 5px;
+  flex-direction: row-reverse;
+}
+
+.section.fourth.gridItemsSection {
+  grid-template-columns: 1fr;
+}
+
+.gridItems {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  justify-items: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.section.fourth.oneColumn {
+  grid-template-columns: 1fr;
+}
+
+#caracteristicas h2 {
+  text-align: center;
+  width: 100%;
+  line-height: 3rem;
+}
+
+.trevl-video-player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trevl-video-thumbnail {
+  position: relative;
+}
+
+.trevl-play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.trevl-video-thumbnails {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.trevl-thumbnail {
+  width: 100px;
+  height: 56px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+#trevl-video-thumbnails-image img {
+  width: 250px;
+}
+
+.trevlVideoContainerCard {
+  position: relative;
+}
+
+.trevlDescriptionVideoThumbnail {
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+  background: #171717cc;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.section.third.Footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.containerSections.Footer {
+  border-top: none;
+  border-bottom: none;
+}
+
+.copyrightFooter {
+  width: 55%;
+  color: white;
+  font-size: 0.9rem;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.rodapeLogo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+.rodapeLogo img {
+  width: 250px;
+}
+
+.enderecosFooter {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+#logosRodape {
+  display: flex;
+  gap: 10px;
+}
+
+#logosRodape a {
+  display: flex;
+  background: white;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+}
+
+#logosRodape a svg {
+  width: 24px;
+  height: 24px;
+}
+
+.video-player-container iframe {
+  border-radiu: 4px;
+}
+
+#buttonsWhatsapp span + span {
+  background: #00e676;
+  font-size: 0.81rem;
+}
+
+.containerSections.red {
+  background: #ba181b;
+  color: white;
+  padding: 40px 0;
+}
+
+.section.red {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1280px;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.tarjaWhatsappDiv {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.section.red a {
+  margin-top: 10px;
+  color: white;
+  font-weight: 300;
+}
+
+.section.red > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+.titleTarja {
+  text-align: left;
+  gap: 10px;
+}
+
+.titleTarja h4 {
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1080px) {
+  .textFirstSection {
+    margin: 0;
+  }
+
+  .logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .textFirstSection div h1 {
+    font-size: 2rem;
+  }
+
+  .textFirstSection .textFirstSectionContainer {
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    align-items: flex-start;
+    text-align: left;
+    background: #00000091;
+    border-radius: 4px;
+  }
+
+  .textFirstSection div h3 {
+    font-size: 1.4rem;
+  }
+
+  .firstSectionButtonAndLogo {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .firstSectionButtonAndLogo div {
+    width: 100%;
+    gap: 20px;
+  }
+
+  .video-player-container {
+    width: 100%;
+  }
+
+  .containerButtonsMenu {
+    justify-content: center;
+  }
+
+  .firstSectionButtonAndLogo img {
+    width: 60%;
+    margin-top: 5px;
+  }
+
+  .section.second {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .section h2,
+  .section.third h2 {
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  .section.second p {
+    font-size: 1.3rem;
+  }
+
+  .secondSectionText {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .containerCardProducts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .containerSections.fullScreen {
+    height: 100%;
+  }
+
+  .section.second.icons .gridIcons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #caracteristicas {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .trevl-video-thumbnails {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .video-player-container iframe {
+    width: 100%;
+    height: 350px;
+    border-radius: 4px;
+  }
+
+  .videoSlider {
+    width: 100%;
+  }
+
+  .textFirstSection div h1,
+  .section h2,
+  .section.third h2 {
+    line-height: 2.2rem;
+  }
+
+  .videoFirstSection {
+    height: 100vh;
+  }
+
+  svg#whatsapp,
+  svg#locationIcon {
+    width: 18px;
+    height: 18px;
+  }
+
+  #buttonsWhatsapp span + span {
+    background: #00e676;
+  }
+
+  .headerPrivia {
+    display: none;
+  }
+
+  .textFirstSection a,
+  .section.second a,
+  .section.third a,
+  .section.fourth a {
+    font-size: 0.8rem;
+  }
+
+  #trevl-video-thumbnails-image img {
+    width: 100%;
+  }
+
+  .trevl-thumbnail {
+    margin: 0;
+  }
+
+  #lojas p {
+    text-align: center;
+  }
+
+  .gridItems {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+
+  .gridItems.reverse {
+    flex-direction: column-reverse;
+  }
+
+  .fourthSectionText {
+    width: 100%;
+  }
+
+  .containerMaps {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .cardProducts {
+    margin: 0;
+  }
+
+  .containerMaps .cardProducts {
+    padding: 20px;
+  }
+
+  #buttonsWhatsapp a {
+    flex-direction: column;
+  }
+
+  #buttonsWhatsapp div {
+    align-items: center;
+  }
+
+  .buttonMaps {
+    margin-top: -20px;
+  }
+
+  .textRodape {
+    padding: 20px;
+  }
+
+  .textRodape p {
+    text-align: center;
+  }
+
+  .section.third.Footer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .enderecosFooter {
+    flex-direction: column;
+  }
+
+  .containerSections.Footer {
+    padding: 40px 0;
+  }
+
+  .rodapeLogo {
+    align-items: center;
+  }
+
+  .copyrightFooter {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .enderecosFooter {
+    text-align: center;
+  }
+
+  .trevlDescriptionVideoThumbnail {
+    font-size: 0.7rem;
+  }
+
+  .section.red {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .section.red > div {
+    text-align: center;
+  }
+}

@@ -42,6 +42,12 @@ html {
   object-fit: cover;
 }
 
+.videoFirstSection iframe {
+  width: 300%;
+  height: 100%;
+  margin-left: -100%;
+}
+
 .containerFirstSection {
   position: relative;
   width: 100%;
