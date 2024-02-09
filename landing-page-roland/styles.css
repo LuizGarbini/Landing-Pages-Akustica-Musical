@@ -1,8 +1,61 @@
+/* Proxima Nova - Thin */
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./font/Demo_Fonts/proximanova-thin.otf') format('opentype');
+  font-weight: 200; /* Peso da fonte: Thin */
+}
+
+/* Proxima Nova - Light */
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./font/Demo_Fonts/proximanova-light.otf') format('opentype');
+  font-weight: 300; /* Peso da fonte: Light */
+}
+
+/* Proxima Nova - Medium */
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./font/Demo_Fonts/proximanova-medium.otf') format('opentype');
+  font-weight: 500; /* Peso da fonte: Medium */
+}
+
+/* Proxima Nova - Regular */
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./font/Demo_Fonts/proximanova-regular.otf') format('opentype');
+  font-weight: normal; /* Peso da fonte: Regular */
+}
+
+/* Proxima Nova - SemiBold */
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./font/Demo_Fonts/proximanova-semibold.otf') format('opentype');
+  font-weight: 600; /* Peso da fonte: SemiBold */
+}
+
+/* Proxima Nova - ExtraBold */
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./font/Demo_Fonts/proximanova-extrabold.otf') format('opentype');
+  font-weight: 800; /* Peso da fonte: ExtraBold */
+}
+
+/* Proxima Nova - Bold */
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./font/Demo_Fonts/proximanova-bold.otf') format('opentype');
+  font-weight: bold; /* Peso da fonte: Bold */
+}
+
+/* Utilize a fonte Proxima Nova */
+body {
+  font-family: 'Proxima Nova', sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -20,11 +73,6 @@ body::-webkit-scrollbar-thumb {
 
 html {
   scroll-behavior: smooth;
-}
-
-@font-face {
-  font-family: "proxima-nova";
-  src: url("./");
 }
 
 .firstSection {
