@@ -12,13 +12,6 @@
   font-weight: 300; /* Peso da fonte: Light */
 }
 
-/* Proxima Nova - Medium */
-@font-face {
-  font-family: 'Proxima Nova';
-  src: url('./font/Demo_Fonts/proximanova-medium.otf') format('opentype');
-  font-weight: 500; /* Peso da fonte: Medium */
-}
-
 /* Proxima Nova - Regular */
 @font-face {
   font-family: 'Proxima Nova';
@@ -231,7 +224,7 @@ html {
 }
 
 .section.second.fullHeight {
-  height: 100vh;
+  height: 100%;
 }
 
 .section.third {
@@ -273,7 +266,7 @@ html {
   align-items: center;
   justify-items: center;
   overflow: hidden;
-  padding: 0 20px;
+  padding: 80px 20px;
 }
 
 .noPaddingTop {
@@ -289,17 +282,20 @@ html {
 .secondSectionText,
 .fourthSectionText {
   display: flex;
-  width: 85%;
+  width: 100%;
   gap: 30px;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  text-align: center;
+  max-width: 650px;
+  margin: 0 auto;
 }
 
 .section h2,
 .section h3 {
   color: black;
   font-size: 2.5rem;
-  width: 90%;
+  width: 100%;
   line-height: 3rem;
 }
 
@@ -310,13 +306,14 @@ html {
 .section.second p,
 .section.fourth p {
   color: black;
-  font-size: 1.4rem;
-  font-weight: 400;
+  font-size: 1.125rem;
+  font-weight: 300;
   line-height: 1.5;
 }
 
 .section.second img,
 .section.fourth img {
+  max-width: 500px;
   width: 100%;
   height: auto;
   border-radius: 4px;
