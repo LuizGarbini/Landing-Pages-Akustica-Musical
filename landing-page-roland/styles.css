@@ -279,8 +279,7 @@ html {
   width: 90%;
 }
 
-.secondSectionText,
-.fourthSectionText {
+.secondSectionText {
   display: flex;
   width: 100%;
   gap: 30px;
@@ -291,29 +290,116 @@ html {
   margin: 0 auto;
 }
 
+.fourthSectionText {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 .section h2,
 .section h3 {
   color: black;
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   width: 100%;
-  line-height: 3rem;
+  line-height: 2rem;
+  font-weight: 500;
 }
 
 .textRodape h2 {
   text-align: center;
 }
 
-.section.second p,
-.section.fourth p {
+.section.second p {
   color: black;
   font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.section.fourth p {
+  color: black;
+  font-size: 0.875rem;
   font-weight: 300;
   line-height: 1.5;
 }
 
-.section.second img,
-.section.fourth img {
+.slider {
+  position: relative;
+  max-width: 40rem;
+  height: 26.625rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.slide {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 26.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 1s;
+}
+.slide > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+button {
+  background: none;
+  border: none;
+}
+button .fas {
+  color: rgba(255, 255, 255, 0.5);
+}
+.btn-slide {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+
+  height: 5.5rem;
+  width: 5.5rem;
+  cursor: pointer;
+}
+.prev {
+  left: 3rem;
+  transform: translate(-50%, -50%);
+}
+.next {
+  right: 3rem;
+  transform: translate(50%, -50%);
+}
+.dots-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.dot {
+  width: 25px;
+  height: 5px;
+  margin: 15px 5px;
+  border-radius: 0.5rem;
+  background: rgba(39, 39, 39, 0.5);
+  cursor: pointer;
+}
+.dot.active {
+  background: #272727;
+}
+
+.section.second img {
   max-width: 500px;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.section.fourth img {
   width: 100%;
   height: auto;
   border-radius: 4px;
@@ -575,6 +661,7 @@ svg#locationIcon {
   position: relative;
   width: 100%;
   justify-content: center;
+  align-items: center;
 }
 
 .section.footerImage img {
@@ -593,6 +680,7 @@ svg#locationIcon {
   align-items: center;
   padding: 80px;
   gap: 20px;
+  max-width: 650px;
 }
 
 .textRodape h2 {
@@ -640,11 +728,15 @@ svg#locationIcon {
 
 .gridItems {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   gap: 30px;
   justify-items: center;
   align-items: center;
   margin: 40px 0;
+}
+
+.gridItems.reverse {
+  grid-template-columns: 1fr 2fr;
 }
 
 .section.fourth.oneColumn {
