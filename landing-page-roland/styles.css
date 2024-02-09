@@ -276,18 +276,6 @@ html {
   padding: 0 20px;
 }
 
-.section.second {
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 1) 50%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  background-image: url(./lx-700.png);
-  background-repeat: no-repeat;
-  background-position-y: bottom;
-  background-position-x: center;
-}
-
 .noPaddingTop {
   padding-top: 0;
 }
