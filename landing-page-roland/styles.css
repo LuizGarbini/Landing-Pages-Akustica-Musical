@@ -243,7 +243,7 @@ html {
 
 .section.third p {
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   color: white;
 }
 
@@ -407,7 +407,7 @@ button .fas {
 
 .containerCardProducts {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .section.third.fourthColumns .containerCardProducts {
