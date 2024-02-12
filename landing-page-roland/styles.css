@@ -743,6 +743,7 @@ svg#locationIcon {
 
 .section.fourth.oneColumn {
   grid-template-columns: 1fr;
+  padding: 0 20px;
 }
 
 #caracteristicas h2 {
@@ -954,8 +955,6 @@ svg#locationIcon {
 
 .gridItems.video img:hover {
   cursor: pointer;
-  scale: 0.95;
-  transition: 0.5s;
 }
 
 @media (max-width: 1080px) {
