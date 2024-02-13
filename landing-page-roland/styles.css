@@ -933,7 +933,7 @@ svg#plus {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  overflow: auto;
+  overflow: hidden;
 }
 
 .modal-content {
@@ -942,7 +942,10 @@ svg#plus {
   left: 50%;
   transform: translate(-50%, -50%);
   height: auto;
-  width: 93%;
+  width: 100%;
+  max-width: 60%;
+  padding: 80px;
+  aspect-ratio: 16/9;
 }
 
 .close {
