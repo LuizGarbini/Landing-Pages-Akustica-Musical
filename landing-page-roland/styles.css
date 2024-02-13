@@ -1127,7 +1127,8 @@ svg#plus {
   }
 
   svg#whatsapp,
-  svg#locationIcon {
+  svg#locationIcon,
+  svg#plus {
     width: 18px;
     height: 18px;
   }
