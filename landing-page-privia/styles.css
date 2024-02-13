@@ -893,6 +893,10 @@ svg#locationIcon {
     line-height: 2.2rem;
   }
 
+  .section.third h2 {
+    font-size: 1.5rem;
+  }
+
   .videoFirstSection {
     height: 100vh;
   }
