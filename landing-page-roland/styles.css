@@ -966,6 +966,10 @@ svg#plus {
   cursor: pointer;
 }
 
+.gridItems.video a {
+  cursor: pointer;
+}
+
 .modal-content.recursos {
   background: white;
   display: flex;
