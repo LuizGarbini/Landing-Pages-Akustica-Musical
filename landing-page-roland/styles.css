@@ -1,36 +1,33 @@
 /* Proxima Nova - Thin */
 @font-face {
   font-family: 'Proxima Nova';
-  src: url('./font/Demo_Fonts/proximanova-thin.otf') format('opentype');
+  src: url('https://recursos.akusticamusical.com.br/f/landing-page-roland/proximanova-thin.otf')
+    format('opentype');
   font-weight: 200; /* Peso da fonte: Thin */
 }
 
 /* Proxima Nova - Light */
 @font-face {
   font-family: 'Proxima Nova';
-  src: url('./font/Demo_Fonts/proximanova-light.otf') format('opentype');
+  src: url('https://recursos.akusticamusical.com.br/f/landing-page-roland/proximanova-light.otf')
+    format('opentype');
   font-weight: 300; /* Peso da fonte: Light */
 }
 
 /* Proxima Nova - Regular */
 @font-face {
   font-family: 'Proxima Nova';
-  src: url('./font/Demo_Fonts/proximanova-regular.otf') format('opentype');
+  src: url('https://recursos.akusticamusical.com.br/f/landing-page-roland/proximanova-regular.otf')
+    format('opentype');
   font-weight: normal; /* Peso da fonte: Regular */
 }
 
 /* Proxima Nova - SemiBold */
 @font-face {
   font-family: 'Proxima Nova';
-  src: url('./font/Demo_Fonts/proximanova-semibold.otf') format('opentype');
+  src: url('https://recursos.akusticamusical.com.br/f/landing-page-roland/proximanova-semibold.otf')
+    format('opentype');
   font-weight: 600; /* Peso da fonte: SemiBold */
-}
-
-/* Proxima Nova - ExtraBold */
-@font-face {
-  font-family: 'Proxima Nova';
-  src: url('./font/Demo_Fonts/proximanova-extrabold.otf') format('opentype');
-  font-weight: 800; /* Peso da fonte: ExtraBold */
 }
 
 /* Proxima Nova - Bold */
