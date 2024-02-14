@@ -8,6 +8,10 @@
 </head>
 
 <style>
+    body {
+        overflow: hidden;
+    }
+
     div {
         display: flex;
         width: 100%;
@@ -24,12 +28,19 @@
         color: white;
         font-weight: bold;
     }
+
+    @media (max-width: 1080px) {
+        div {
+            flex-direction: column;
+        }
+    }
 </style>
 
 <body>
     <div>
         <a href="./landing-page-privia/index.html">Landing Page Privia</a>
         <a href="./landing-page-roland/index.html">Landing page Roland</a>
+        <a href="./landing-page-baterias-digitais/index.html">Landing page Baterias</a>
     </div>
 </body>
 
