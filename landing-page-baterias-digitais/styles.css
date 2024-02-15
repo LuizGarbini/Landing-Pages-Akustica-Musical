@@ -512,7 +512,7 @@ svg#plus {
 
 .secondSectionText img,
 .fourthSectionText img {
-  width: 40px !important;
+  width: 30px !important;
 }
 
 .cardsAtendimentoLojasPrivia {
@@ -577,7 +577,7 @@ svg#plus {
 
 .section.second.icons p {
   font-weight: 600;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .containerMaps {
