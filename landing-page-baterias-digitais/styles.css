@@ -1111,6 +1111,10 @@ svg#plus {
   right: 10px;
 }
 
+.containerSections.white.icons {
+  padding-top: 0;
+}
+
 @media (max-width: 1080px) {
   #prevSlide,
   #nextSlide {
