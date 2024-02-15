@@ -1077,8 +1077,8 @@ svg#plus {
 
 .dot {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   background-color: #000;
   border-radius: 50%;
   margin: 0 5px;
@@ -1109,10 +1109,6 @@ svg#plus {
 
 #nextSlide {
   right: 10px;
-}
-
-.section img {
-  max-width: 70% !important;
 }
 
 @media (max-width: 1080px) {
