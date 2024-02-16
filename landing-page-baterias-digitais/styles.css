@@ -1145,7 +1145,7 @@ svg#plus {
 }
 
 .plusCircle {
-  font-size: 32px;
+  font-size: 0;
   font-style: normal;
   font-weight: 400;
   line-height: 36px;
@@ -1207,6 +1207,7 @@ svg#plus {
   height: 76px;
   background-repeat: no-repeat;
   background-position: center top;
+  font-size: 32px;
 }
 
 .buttonsSecondSection.galeria > span {
@@ -1215,6 +1216,10 @@ svg#plus {
 
 .containerSections.white.gridPreFooter {
   padding-top: 40px;
+}
+
+.buttonsSecondSection.galeria svg .cls-2 {
+  stroke: #919696 !important;
 }
 
 @media (max-width: 1080px) {
