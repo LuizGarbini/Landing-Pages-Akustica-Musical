@@ -281,10 +281,14 @@ html {
   width: 100%;
   gap: 30px;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-  max-width: 650px;
+  align-items: flex-start;
+  text-align: left;
+  max-width: 800px;
   margin: 0 auto;
+}
+
+.section.second.fullHeight h2 {
+  font-size: 2.5rem;
 }
 
 .fourthSectionText {
@@ -408,7 +412,7 @@ button {
 }
 
 .section.second img {
-  max-width: 500px;
+  max-width: 1000px;
   width: 100%;
   height: auto;
   border-radius: 4px;
@@ -742,6 +746,7 @@ svg#plus {
 
 .section.fourth.gridItemsSection {
   grid-template-columns: 1fr;
+  padding-bottom: 0;
 }
 
 .gridItems {
@@ -1115,6 +1120,95 @@ svg#plus {
   padding-top: 0;
 }
 
+.containerSections.white.icons > section {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.containerSections.white.icons {
+  padding-bottom: 0;
+}
+
+.buttonsSecondSection {
+  display: inline-flex;
+}
+
+.buttonsSecondSection > span {
+  align-items: center;
+  width: 226px;
+  cursor: pointer;
+}
+
+.buttonsSecondSection .buttonText {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.plusCircle {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  color: #949999;
+  border: 2px solid #949999;
+  border-radius: 50%;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  vertical-align: middle;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.buttonsSecondSection > span:hover .plusCircle {
+  color: #fff;
+  background-color: #949999;
+}
+
+.playButton {
+  text-decoration: none;
+  position: relative;
+  margin-right: 10px;
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+#playButtonSvg {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 200%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+}
+
+.buttonsSecondSection > span:hover #playButtonSvg {
+  top: auto;
+  bottom: 0;
+}
+
+.plusCircle:before {
+  content: '+';
+  position: absolute;
+  left: -1px;
+  top: 0;
+  display: block;
+  width: 38px;
+  height: 76px;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
 @media (max-width: 1080px) {
   #prevSlide,
   #nextSlide {
@@ -1184,7 +1278,18 @@ svg#plus {
 
   .section.second {
     display: flex;
-    flex-direction: column-reverse;
+  }
+
+  .buttonsSecondSection {
+    flex-direction: column;
+  }
+
+  .buttonsSecondSection > span {
+    margin-bottom: 20px;
+  }
+
+  .buttonsSecondSection.galeria {
+    text-align: center;
   }
 
   .section h2,
@@ -1202,7 +1307,7 @@ svg#plus {
     width: 100%;
     gap: 30px;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .containerCardProducts {
@@ -1387,5 +1492,9 @@ svg#plus {
 
   #videoModal .modal-content {
     max-width: 100%;
+  }
+
+  .section.second.fullHeight h2 {
+    font-size: 2rem;
   }
 }
