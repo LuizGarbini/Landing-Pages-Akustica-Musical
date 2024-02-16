@@ -288,7 +288,7 @@ html {
 }
 
 .section.second.fullHeight h2 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 
 .fourthSectionText {
@@ -308,7 +308,7 @@ html {
   font-size: 1.75rem;
   width: 100%;
   line-height: 2rem;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .textRodape h2 {
@@ -1207,6 +1207,14 @@ svg#plus {
   height: 76px;
   background-repeat: no-repeat;
   background-position: center top;
+}
+
+.buttonsSecondSection.galeria > span {
+  text-align: center;
+}
+
+.containerSections.white.gridPreFooter {
+  padding-top: 40px;
 }
 
 @media (max-width: 1080px) {
